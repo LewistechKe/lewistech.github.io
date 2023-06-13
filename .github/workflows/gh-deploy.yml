@@ -15,7 +15,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [20.x]
+        node-version: [16.x]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
@@ -32,9 +32,7 @@ jobs:
         run: yarn build
         env: 
           NEXT_PUBLIC_TRACKING_ID: G-0EB97JGZ4L
-          NEXT_PUBLIC_USER_ID: oeO4HSYgEmJxG8mnv
-          NEXT_PUBLIC_TEMPLATE_ID: template_s76fhe7
-          NEXT_PUBLIC_SERVICE_ID: service_c9besso
+         
 
 
          
