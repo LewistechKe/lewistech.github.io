@@ -112,7 +112,7 @@ function About() {
     return (
         <>
             <div className="w-20 md:w-28 my-4 bg-white rounded-full">
-                <img className="w-full" src="./images/logos/bitmoji.png" alt="Vivek Patel Logo" />
+                <img className="w-full" src="./images/logos/bitmoji.png" alt="Lewis Logo" />
             </div>
             <div className=" mt-4 md:mt-8 text-lg md:text-2xl text-center px-1">
                 <div>My name is <span className="font-bold">Lewis Muthaura</span> ,</div>
@@ -148,15 +148,15 @@ function Education() {
                     </div>
                     <div className=" text-sm text-gray-400 mt-0.5">2020 - 2024</div>
                     <div className=" text-sm md:text-base">Mathematics and Computer Science</div>
-                    <div className="text-sm text-gray-300 font-bold mt-1">CGPA &nbsp; 9.35/10</div>
+                    <div className="text-sm text-gray-300 font-bold mt-1">CGPA &nbsp; 8.35/10</div>
                 </li>
                 <li className="list-disc mt-5">
                     <div className=" text-lg md:text-xl text-left font-bold leading-tight">
-                        Class 12<sup>th</sup> (GSEB)
+                        Grade<sup>12</sup> (KCSE)
                     </div>
                     <div className=" text-sm text-gray-400 mt-0.5">2016 - 2018</div>
-                    <div className=" text-sm md:text-base">Maths, Physics, Chemistry</div>
-                    <div className="text-sm text-gray-300 font-bold mt-1">Percentile Rank &nbsp; 94.1%</div>
+                    <div className=" text-sm md:text-base">Maths, Biology, Chemistry</div>
+                    <div className="text-sm text-gray-300 font-bold mt-1">Web Development &nbsp;  </div>
                 </li>
             </ul>
         </>
@@ -225,8 +225,8 @@ function Projects() {
     const project_list = [
         {
             name: "UbuntuOS Portfolio",
-            date: "Apr 2021",
-            link: "https://github.com/LewistechKe/lewsitech.github.io",
+            date: "Apr 2023",
+            link: "https://github.com/LewistechKe/lewistech.github.io",
             description: [
                 "Personal portfolio website of theme Ubuntu 20.04, made using NEXT.js & tailwind CSS",
             ],
@@ -234,7 +234,7 @@ function Projects() {
         },
         {
             name: "Chrome Extension React Bolierplate",
-            date: "Dec 2021",
+            date: "Dec 2022",
             link: "https://github.com/lewistech/chrome-extension-react-boilerplate",
             description: [
                 "A boilerplate code to build a chrome extension with react and webpack",
@@ -242,36 +242,17 @@ function Projects() {
             domains: ["javascript", "chrome-extension"]
         },
         {
-            name: "CodeConnect",
-            date: "Nov 2021",
-            link: "https://github.com/lewistechke/CodeConnect-frontend",
-            description: [
-                "A multi-language pair-programming platform with the features of video meeting and whiteboard. Built with React.js, Tailwind CSS, Chakra UI, Express & Socket.io.",
-            ],
-            domains: ["javascript", "tailwindcss"]
-        },
-        {
             name: "Ad Free Spotify",
-            date: "Jun 2021",
-            link: "https://github.com/lewistechke/ad-free-spotify",
+            date: "Jun 2023",
+            link: "https://github.com/LewistechKe/ad-free-Spotify",
             description: [
                 "Chrome extension to automatically mute/unmute Spotify tab when Advertisement starts and ends!",
             ],
             domains: ["javascript", "chrome-extension"]
-        },
-        {
-            name: "economist.com Unlocked",
-            date: "Mar 2021",
-            link: "https://github.com/lewistechke/economist.com-unlocked",
-            description: [
-                "A chrome extension to read Paid Articles for Free & with no Ads, no subscription, no memberships!",
-            ],
-            domains: ["javascript", "chrome-extension"]
-        },
-        
+        },   
         {
             name: "Meditech Healthcare WebApp",
-            date: "Nov 2020",
+            date: "Nov 2023",
             link: "https://github.com/lewistech/Meditech-Healthcare",
             description: [
                 "Developed Web Application to predict and diagnose diseases from x-ray images.",
@@ -356,6 +337,6 @@ function Projects() {
 }
 function Resume() {
     return (
-        <iframe className="h-full w-full" src="./files/resume.pdf" title="vivek patel resume" frameBorder="0"></iframe>
+        <iframe className="h-full w-full" src="./files/resume.pdf" title="Lewis resume" frameBorder="0"></iframe>
     )
 }
