@@ -55,7 +55,7 @@ const apps = [
         screen: displayTerminal,
     },
     {
-        id: "spotify",
+        id: "spotify",//best hits in Kenya
         title: "Spotify",
         icon: './themes/Yaru/apps/spotify.png',
         disabled: false,
