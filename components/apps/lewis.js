@@ -233,13 +233,13 @@ function Projects() {
             domains: ["javascript", "next.js", "tailwindcss"]
         },
         {
-            name: "Chrome Extension React Bolierplate",
+            name: "Mythicommerce",
             date: "Dec 2022",
-            link: "https://github.com/lewistech/chrome-extension-react-boilerplate",
+            link: "https://github.com/LewistechKe/Mythicommerce",
             description: [
-                "A boilerplate code to build a chrome extension with react and webpack",
+                "Mythic is a dynamic frontend e-commerce application built with React. Mythic is based around purchasing items from the online video game League of Legends!",
             ],
-            domains: ["javascript", "chrome-extension"]
+            domains: ["javascript", "React"]
         },
         {
             name: "Ad Free Spotify",
@@ -251,9 +251,9 @@ function Projects() {
             domains: ["javascript", "chrome-extension"]
         },   
         {
-            name: "Meditech Healthcare WebApp",
+            name: "Digital-Resume",
             date: "Nov 2023",
-            link: "https://github.com/lewistech/Meditech-Healthcare",
+            link: "https://lewistechke.github.io/lewis-digital-resume/",
             description: [
                 "Developed Web Application to predict and diagnose diseases from x-ray images.",
             ],
