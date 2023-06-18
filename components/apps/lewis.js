@@ -257,7 +257,7 @@ function Projects() {
             description: [
                 "Developed Web Application to predict and diagnose diseases from x-ray images.",
             ],
-            domains: ["javascript", "html5", "sass", "firebase", "tensorflow"]
+            domains: ["javascript", "html5"]
         },
        
     ];
